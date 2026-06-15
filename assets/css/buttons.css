@@ -71,9 +71,7 @@ a.button.inline:hover {
   background: none;
 }
 
-a.read-more,
-a.read-more:hover,
-a.read-more:active {
+a.read-more {
   display: inline-flex;
   border: none;
   background: none;
@@ -81,4 +79,12 @@ a.read-more:active {
   padding: 0;
   max-width: 100%;
   text-decoration: none;
+  margin-left: 15px !important;
+}
+
+a.read-more:hover,
+a.read-more:active {
+  border: none;
+  background: none;
+  box-shadow: none;
 }
